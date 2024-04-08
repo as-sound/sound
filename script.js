@@ -1,10 +1,10 @@
 const pixboxes = [
-    {
-        id: 1,
-        img: "i/spgs.png",
-        description: "stage sound desing",
-        link: "https://www.youtube.com/watch?v=nVL4nhqnzIw"
-    },
+    // {
+    // //     id: 1,
+    // //     img: "i/spgs.png",
+    // //     description: "stage sound desing",
+    // //     link: "https://www.youtube.com/watch?v=nVL4nhqnzIw"
+    // // },
     {
         id: 2,
         img: "i/perspektiva.png",
