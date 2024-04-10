@@ -20,16 +20,16 @@
                 background: #f2f2f2;
                 color: #2D3737;
                 display: flex;
-                align-items: center;
-                justify-content: center;
+                align-items:flex-start;
+                justify-content: flex-start;
                 min-height: 100%;
             }
 
             .protected {
-                background: #fff;
-                -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
-                box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
-                border-radius: 3px;
+                background: #ffffff00;
+                /* -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1); */
+                /* box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1); */
+                border-radius: 0px;
                 min-width: 500px;
 
             }
@@ -37,13 +37,14 @@
                 padding: 24px 28px;
             }
             .protected__content__heading {
+                visibility: hidden;
                 font-size: 16px;
                 font-weight: 500;
                 margin: 0 0 12px;
                 line-height: 1;
             }
             .protected__alert {
-                display: none;
+                visibility: hidden;
                 border-bottom: 1px solid transparent;
                 border-radius: 3px 3px 0 0;
                 padding: 12px 14px;
@@ -53,22 +54,25 @@
             }
             .protected__content__input {
                 display: block;
-                border: solid 1px #ccc;
-                padding: 12px 14px;
-                -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
-                box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
-                font-size: 16px;
+                border: solid 1px #ffffff00;
+                /* padding: 12px 14px; */
+                /* -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1); */
+                /* box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1); */
+                font-size: 12px;
                 width: 100%;
-                border-radius: 3px;
+                background-color: #ffffff00;
+                /* border-radius: 3px; */
 
-                margin-bottom: 12px;
+                /* margin-bottom: 12px; */
             }
             .protected__content__input:focus {
+                /* visibility: hidden; */
                 outline: none;
-                border-color: #228843;
+                border-color: #ffffff00;
             }
             .protected__content__btn {
-                background-color: #228843;
+                visibility: hidden;
+                background-color: #f6f6f6;
                 border-radius: 3px;
                 cursor: pointer;
                 border: none;
@@ -76,11 +80,12 @@
                 padding: 12px 14px;
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
                 font-weight: 500;
-                font-size: 16px;
+                font-size: 10px;
 
             }
             .protected__content__btn:hover {
-                background-color: #1C6D36;
+                visibility: hidden;
+                background-color: #ffffff;
             }
 
         </style>
